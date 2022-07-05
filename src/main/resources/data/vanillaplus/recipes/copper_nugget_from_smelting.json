@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "vanillaplus:copper_pickaxe"
+    },
+    {
+      "item": "vanillaplus:copper_shovel"
+    },
+    {
+      "item": "vanillaplus:copper_axe"
+    },
+    {
+      "item": "vanillaplus:copper_hoe"
+    },
+    {
+      "item": "vanillaplus:copper_sword"
+    }
+  ],
+  "result": "vanillaplus:copper_nugget"
+}

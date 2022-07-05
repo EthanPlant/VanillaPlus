@@ -1,3 +1,9 @@
 {
-  "item.vanillaplus.copper_nugget": "Copper Nugget"
+  "item.vanillaplus.copper_nugget": "Copper Nugget",
+
+  "item.vanillaplus.copper_axe": "Copper Axe",
+  "item.vanillaplus.copper_hoe": "Copper Hoe",
+  "item.vanillaplus.copper_pickaxe": "Copper Pickaxe",
+  "item.vanillaplus.copper_shovel": "Copper Shovel",
+  "item.vanillaplus.copper_sword": "Copper Sword"
 }
