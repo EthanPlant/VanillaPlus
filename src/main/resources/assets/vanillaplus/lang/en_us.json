@@ -5,5 +5,10 @@
   "item.vanillaplus.copper_hoe": "Copper Hoe",
   "item.vanillaplus.copper_pickaxe": "Copper Pickaxe",
   "item.vanillaplus.copper_shovel": "Copper Shovel",
-  "item.vanillaplus.copper_sword": "Copper Sword"
+  "item.vanillaplus.copper_sword": "Copper Sword",
+
+  "item.vanillaplus.copper_helmet": "Copper Helmet",
+  "item.vanillaplus.copper_chestplate": "Copper Chestplate",
+  "item.vanillaplus.copper_leggings": "Copper Leggings",
+  "item.vanillaplus.copper_boots": "Copper Boots"
 }

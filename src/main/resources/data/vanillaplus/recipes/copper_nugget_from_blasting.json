@@ -17,6 +17,18 @@
     },
     {
       "item": "vanillaplus:copper_sword"
+    },
+    {
+      "item": "vanillaplus:copper_helmet"
+    },
+    {
+      "item": "vanillaplus:copper_chestplate"
+    },
+    {
+      "item": "vanillaplus:copper_leggings"
+    },
+    {
+      "item": "vanillaplus:copper_boots"
     }
   ],
   "result": "vanillaplus:copper_nugget"
