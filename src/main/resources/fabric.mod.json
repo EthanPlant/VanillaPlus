@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillaplus",
+  "version": "${version}",
+  "name": "Vanilla+",
+  "description": "A bunch of QOL improvements for Minecraft",
+  "authors": ["Ethan Plant"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/vanillaplus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.aquilla.vanillaplus.VanillaPlus"
+    ]
+  },
+  "mixins": [
+    "vanillaplus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}
