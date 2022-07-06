@@ -1,5 +1,6 @@
 package com.aquilla.vanillaplus;
 
+import com.aquilla.vanillaplus.block.ModBlocks;
 import com.aquilla.vanillaplus.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -20,5 +21,6 @@ public class VanillaPlus implements ModInitializer {
         // Proceed with mild caution.
 
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
     }
 }

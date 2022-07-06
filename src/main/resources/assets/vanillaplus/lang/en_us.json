@@ -10,5 +10,7 @@
   "item.vanillaplus.copper_helmet": "Copper Helmet",
   "item.vanillaplus.copper_chestplate": "Copper Chestplate",
   "item.vanillaplus.copper_leggings": "Copper Leggings",
-  "item.vanillaplus.copper_boots": "Copper Boots"
+  "item.vanillaplus.copper_boots": "Copper Boots",
+
+  "block.vanillaplus.copper_button": "Copper Button"
 }
