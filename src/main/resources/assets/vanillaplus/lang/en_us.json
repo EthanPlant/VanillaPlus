@@ -15,5 +15,10 @@
   "block.vanillaplus.oxidized_copper_button": "Oxidized Copper Button",
   "block.vanillaplus.weathered_copper_button": "Weathered Copper Button",
   "block.vanillaplus.exposed_copper_button": "Exposed Copper Button",
-  "block.vanillaplus.copper_button": "Copper Button"
+  "block.vanillaplus.copper_button": "Copper Button",
+
+  "block.vanillaplus.waxed_oxidized_copper_button": "Waxed Oxidized Copper Button",
+  "block.vanillaplus.waxed_weathered_copper_button": "Waxed Weathered Copper Button",
+  "block.vanillaplus.waxed_exposed_copper_button": "Waxed Exposed Copper Button",
+  "block.vanillaplus.waxed_copper_button": "Waxed Copper Button"
 }

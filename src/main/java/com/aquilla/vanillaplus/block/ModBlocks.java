@@ -1,6 +1,7 @@
 package com.aquilla.vanillaplus.block;
 
 import com.aquilla.vanillaplus.VanillaPlus;
+import com.aquilla.vanillaplus.block.custom.ModStoneButtonBlock;
 import com.aquilla.vanillaplus.block.custom.OxidizableButtonBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -32,6 +33,22 @@ public class ModBlocks {
             new OxidizableButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL)
                     .strength(1.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)), ItemGroup.REDSTONE);
 
+    public static final Block WAXED_OXIDIZED_COPPER_BUTTON = registerBlock("waxed_oxidized_copper_button",
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.METAL)
+                    .strength(1.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)), ItemGroup.REDSTONE);
+
+    public static final Block WAXED_WEATHERED_COPPER_BUTTON = registerBlock("waxed_weathered_copper_button",
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.METAL)
+                    .strength(1.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)), ItemGroup.REDSTONE);
+
+    public static final Block WAXED_EXPOSED_COPPER_BUTTON = registerBlock("waxed_exposed_copper_button",
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.METAL)
+                    .strength(1.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)), ItemGroup.REDSTONE);
+
+    public static final Block WAXED_COPPER_BUTTON = registerBlock("waxed_copper_button",
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.METAL)
+                    .strength(1.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)), ItemGroup.REDSTONE);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
@@ -47,6 +64,11 @@ public class ModBlocks {
         OxidizableBlocksRegistry.registerOxidizableBlockPair(COPPER_BUTTON, EXPOSED_COPPER_BUTTON);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(EXPOSED_COPPER_BUTTON, WEATHERED_COPPER_BUTTON);
         OxidizableBlocksRegistry.registerOxidizableBlockPair(WEATHERED_COPPER_BUTTON, OXIDIZED_COPPER_BUTTON);
+
+        OxidizableBlocksRegistry.registerWaxableBlockPair(COPPER_BUTTON, WAXED_COPPER_BUTTON);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(EXPOSED_COPPER_BUTTON, WAXED_EXPOSED_COPPER_BUTTON);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(WEATHERED_COPPER_BUTTON, WAXED_WEATHERED_COPPER_BUTTON);
+        OxidizableBlocksRegistry.registerWaxableBlockPair(OXIDIZED_COPPER_BUTTON, WAXED_OXIDIZED_COPPER_BUTTON);
     }
 
     public static void registerModBlocks() {
