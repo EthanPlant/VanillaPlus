@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": {"model": "vanillaplus:block/waxed_exposed_copper_pressure_plate"},
+    "powered=true": {"model":  "vanillaplus:block/waxed_exposed_copper_pressure_plate_down"}
+  }
+}

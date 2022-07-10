@@ -7,6 +7,14 @@
     "vanillaplus:waxed_oxidized_copper_button",
     "vanillaplus:waxed_weathered_copper_button",
     "vanillaplus:waxed_exposed_copper_button",
-    "vanillaplus:waxed_copper_button"
+    "vanillaplus:waxed_copper_button",
+    "vanillaplus:oxidized_copper_pressure_plate",
+    "vanillaplus:weathered_copper_pressure_plate",
+    "vanillaplus:exposed_copper_pressure_plate",
+    "vanillaplus:copper_pressure_plate",
+    "vanillaplus:waxed_oxidized_copper_pressure_plate",
+    "vanillaplus:waxed_weathered_copper_pressure_plate",
+    "vanillaplus:waxed_exposed_copper_pressure_plate",
+    "vanillaplus:waxed_copper_pressure_plate"
   ]
 }

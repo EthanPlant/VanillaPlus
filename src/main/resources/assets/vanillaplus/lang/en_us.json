@@ -20,5 +20,15 @@
   "block.vanillaplus.waxed_oxidized_copper_button": "Waxed Oxidized Copper Button",
   "block.vanillaplus.waxed_weathered_copper_button": "Waxed Weathered Copper Button",
   "block.vanillaplus.waxed_exposed_copper_button": "Waxed Exposed Copper Button",
-  "block.vanillaplus.waxed_copper_button": "Waxed Copper Button"
+  "block.vanillaplus.waxed_copper_button": "Waxed Copper Button",
+
+  "block.vanillaplus.oxidized_copper_pressure_plate": "Oxidized Copper Pressure Plate",
+  "block.vanillaplus.weathered_copper_pressure_plate": "Weathered Copper Pressure Plate",
+  "block.vanillaplus.exposed_copper_pressure_plate": "Exposed Copper Pressure Plate",
+  "block.vanillaplus.copper_pressure_plate": "Copper Pressure Plate",
+
+  "block.vanillaplus.waxed_oxidized_copper_pressure_plate": "Waxed Oxidized Copper Pressure Plate",
+  "block.vanillaplus.waxed_weathered_copper_pressure_plate": "Waxed Weathered Copper Pressure Plate",
+  "block.vanillaplus.waxed_exposed_copper_pressure_plate": "Waxed Exposed Copper Pressure Plate",
+  "block.vanillaplus.waxed_copper_pressure_plate": "Waxed Copper Pressure Plate"
 }

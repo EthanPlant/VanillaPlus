@@ -2,17 +2,17 @@ package com.aquilla.vanillaplus.block.custom;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Oxidizable;
-import net.minecraft.block.StoneButtonBlock;
+import net.minecraft.block.PressurePlateBlock;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 
-public class OxidizableButtonBlock extends StoneButtonBlock implements Oxidizable {
+public class OxidizablePressurePlateBlock extends PressurePlateBlock implements Oxidizable {
     private final OxidationLevel oxidationLevel;
 
-    public OxidizableButtonBlock(Oxidizable.OxidationLevel oxidationlevel, Settings settings) {
-        super(settings);
-        this.oxidationLevel = oxidationlevel;
+    public OxidizablePressurePlateBlock(Oxidizable.OxidationLevel oxidationLevel, ActivationRule type, Settings settings) {
+        super(type, settings);
+        this.oxidationLevel = oxidationLevel;
     }
 
     @Override
